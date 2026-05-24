@@ -1,69 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    
-                <h3> <img src="logo/logo.png" width="700" height="300" alt="logo"> </h3>
-            
-                <a href="index.html">Home</a> |
-                <a href="about-me.html">About Me</a> |
+    <header>
+        <div class="container navbar">
+
+            <div class="logo">
+                <img src="logo/logo.png" alt="logo" width="150">
+            </div>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about-me.html">About Me</a>
                 <a href="contact-us.html">Contact Us</a>
-            
+            </nav>
 
-    
+        </div>
+    </header>
 
+    <section class="hero container">
 
-                <video width="300" height="350" controls>
-                    <source src="video/VID-20260519-WA0000.mp4" type="VID-20260519-WA0000">
-                </video>
+        <video width="300" height="300" controls>
+            <source src="video/VID-20260519-WA0000.mp4" type="video/mp4">
+        </video>
 
+    </section>
 
+    <section class="about container">
 
-    
-                <h1>Mbuso Kingdom Mnisi</h1>
+        <div class="about-text">
+            <h1>Mbuso Kingdom Mnisi</h1>
 
-                <h3>My Bio</h3>
+            <h3>My Bio</h3>
+            <p>
+                Dedicated and motivated individual with a background in Human Resource
+                Management and a growing passion for Information Technology and digital innovation.
+            </p>
+        </div>
 
-                <p>Dedicated and motivated individual with a background in Human Resource Management and <br>a growing passion for Information Technology and digital innovation.<br> Skilled in communication, teamwork, and problem-solving, with a strong <br> interest in technology, online business, and continuous self-development.<br> Committed to learning new skills, gaining practical experience, and building <br> a successful professional career.
+        <div class="about-image">
+            <img src="image/Screenshot_20260519_135726_Gallery.jpg" alt="My Photo" width="500">
+        </div>
 
-                </p>
+    </section>
 
-                
-            
-                <img src="image/Screenshot_20260519_135726_Gallery.jpg" width="300" height="500" alt="My Photo">
-            
+    <footer>
 
-    
-
-    
+        <div class="footer-container container">
+            <div>
                 <h3>7 Brink Street Discovery</h3>
 
-                <p>
-                    Johannesburg, South Africa
-                </p>
+                <p>Johannesburg, South Africa</p>
 
-                <p>
-                    Phone: 0733244335
-                </p>
-            
+                <p>Phone: 0733244335</p>
+                <div class="socials">
+                    <a href="#">F</a>
+                    <a href="#">T</a>
+                    <a href="#">I</a>
+                </div>
+            </div>
+
+            <div class="quick-links">
                 <h3>Quick Links</h3>
 
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-me.html">About Me</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
-                </ul>
+                <a href="index.html">Home</a>
+                <a href="about-me.html">About Me</a>
+                <a href="contact-us.html">Contact Us</a>
+            </div>
 
-                <p>
-                    Facebook |
-                    Twitter |
-                    Instagram
-                </p>
-            
+        </div>
 
+    </footer>
 </body>
+
 </html>
